@@ -1,0 +1,42 @@
+.Header{
+    display: grid;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    align-items: center;
+
+    background-color: green;
+    color: white;
+    /* grid-template-rows: 3cm 3cm 3cm ;
+    grid-template-columns: 3cm 3cm 3cm ; */
+    gap: 1px;
+}
+
+.Header#h1{
+    text-align: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: solid;
+
+}
+
+.Container2 {
+    background-color: blue;
+    color: black;
+    /*grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 6;*/
+
+    grid-column: 2/3;
+    grid-row-start: 4;
+
+    text-align: center;
+    align-items: center;
+    border: solid;
+    border-color: black;
+}
+
+.Footer{
+
+}
